@@ -48,5 +48,7 @@ LET'S GO!
     setInterval(function() {
         client.user.setActivity(`${statusArray[~~(Math.random() * statusArray.length)]}`, { type: settings.statusTYPE });
     }, 100000);
+    
+});
   
 client.login(process.env.BOT_TOKEN);
