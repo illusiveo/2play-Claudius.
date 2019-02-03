@@ -37,10 +37,12 @@ LET'S GO!
 
     // Cool interval loop for the bot's game.
     let statusArray = [
-        `${settings.botPREFIX}help | ${client.guilds.size} servers!`,
-        `${settings.botPREFIX}help | ${client.channels.size} channels!`,
-        `${settings.botPREFIX}help | By : illusive!`,
-        `${settings.botPREFIX}help | ${client.users.size} users!`
+        `${settings.botPREFIX}help | Soon ~ maybe? [162]`,
+        `${settings.botPREFIX}help | You can not use me :c`,
+        `${settings.botPREFIX}help | you will be able to use me soon! [121]`,
+        `${settings.botPREFIX}help | I can not help in the moment :c [126]`,
+        `${settings.botPREFIX}help | soon ~ [155]`,
+        `${settings.botPREFIX}help | By : illusive! [ 143 ]`
     ];
 
     setInterval(function() {
