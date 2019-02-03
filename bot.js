@@ -60,19 +60,5 @@ LET'S GO!
         return;
     }
 });
-
-       //Users blacklist
-    if (message.author.id == "") {
-        console.log(`[BlackList] ${message.author.tag} tried to use a command!`);
-        return logsCommands.send(`[BlackList] ${message.author.tag} tried to use a command!`);
-    }
-
-    //Channels blacklist
-    if (message.channel.id == "") return;
-
-    //Servers blacklist
-    if (message.guild.id == "") return;
-
-    var args = message.content.substring(settings.botPREFIX.length).split(" ");
  
 client.login(process.env.BOT_TOKEN);
