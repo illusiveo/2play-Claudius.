@@ -48,17 +48,5 @@ LET'S GO!
     setInterval(function() {
         client.user.setActivity(`${statusArray[~~(Math.random() * statusArray.length)]}`, { type: settings.statusTYPE });
     }, 100000);
-    
-});
-    var guildMSG = guild.channels.find('name', 'chat');
-
-    if (guildMSG) {
-        guildMSG.send(`
-**Thank You For Add Me In Your Server ! **
-**For more info type** \`${settings.botPREFIX}help\`!\n\ `);
-    } else {
-        return;
-    }
-});
- 
+  
 client.login(process.env.BOT_TOKEN);
