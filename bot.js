@@ -61,21 +61,6 @@ LET'S GO!
     }
 });
 
-// Message function
-client.on("message", async message => {
-    if (message.author.equals(client.user)) return;
-
-    if (!message.content.startsWith(settings.botPREFIX)) return;
-
-    if (message.author.bot) return;
-
-    const logsCommands = client.channels.get(settings.logsChannelID);
-
-    //Disables commands in a private chat
-    if  (message.channel.type == "dm") {
-        console.log(`${message.author.tag} tried to use a command in DM!`);
-    }
-    
        //Users blacklist
     if (message.author.id == "") {
         console.log(`[BlackList] ${message.author.tag} tried to use a command!`);
