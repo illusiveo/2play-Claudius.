@@ -1,0 +1,111 @@
+{
+	"_comment":"This json file holds all the animals and ranks. Yes it's messy. I'll clean it up in the future!",
+
+	"common":[0.50,":bee:",":bug:",":snail:",":beetle:",":butterfly:"],
+	"uncommon":[1,":baby_chick:",":mouse2:",":rooster:",":rabbit2:",":chipmunk:"],
+    	
+	"numbers":["⁰","¹","²","³","⁴","⁵","⁶","⁷","⁸","⁹"],
+	"question":"<:question:416100711412137984>",
+	"rollprice":5,
+
+	"order":["common","uncommon"],
+	"ranks":{
+		"common":"<:common:416520037713838081>",
+		"uncommon":"<:uncommon:416520056269176842>"
+	},
+	"alias":{
+		"common":["c"],
+		"uncommon":["u","uc"]
+	},
+	"price":{
+		"common":1,
+		"uncommon":3
+	},
+	"points":{
+		"common":1,
+		"uncommon":5
+	},
+
+	"list":{
+		"bee":{
+			"value":":bee:",
+			"desc":"How do bees go to school?\n~   On the school buzz!",
+			"uni":"🐝",
+			"alt":["wasp"],
+			"attr":4,
+			"hpr":2
+		},
+		"bug":{
+			"value":":bug:",
+			"desc":"It's a worm.",
+			"uni":"🐛",
+			"alt":["worm","caterpillar"],
+			"attr":2,
+			"hpr":6
+		},
+		"snail":{
+			"value":":snail:",
+			"desc":"The slowest animal, but the toughest in the zoo",
+			"uni":"🐌",
+			"alt":["slug"],
+			"attr":1,
+			"hpr":8
+		},
+		"beetle":{
+			"value":":beetle:",
+			"desc":"Are they all female?",
+			"uni":"🐞",
+			"alt":["ladybug"],
+			"attr":3,
+			"hpr":4
+		},
+		"butterfly":{
+			"value":":butterfly:",
+			"desc":"Why did you throw butter out the window?\n~ To see a butter fly!",
+			"uni":"🦋",
+			"alt":[],
+			"attr":3,
+			"hpr":4
+		},
+		"chick":{
+			"value":":baby_chick:",
+			"desc":"chirp chirp! It's so cute!",
+			"uni":"🐤",
+			"alt":["baby_chick"],
+			"attr":2,
+			"hpr":8
+		},
+		"mouse":{
+			"value":":mouse2:",
+			"desc":"sqeak!",
+			"uni":"🐁",
+			"alt":["mouse2","rat"],
+			"attr":3,
+			"hpr":3
+		},
+		"chicken":{
+			"value":":rooster:",
+			"desc":"The alarm cluck",
+			"uni":"🐓",
+			"alt":["rooster"],
+			"attr":4,
+			"hpr":2
+		},
+		"rabbit":{
+			"value":":rabbit2:",
+			"desc":"There's a ton of them.",
+			"uni":"🐇",
+			"alt":["rabbit2","bunny"],
+			"attr":3,
+			"hpr":3
+		},
+		"chipmunk":{
+			"value":":chipmunk:",
+			"desc":"Don't mess with them.",
+			"uni":"🐿",
+			"alt":["squirrel"],
+			"attr":3,
+			"hpr":3
+		}
+	}
+}
