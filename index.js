@@ -4,7 +4,7 @@ const debug = false;
 process.env.UV_THREADPOOL_SIZE = 12;
 
 if(debug) var auth = require('../tokens/scuttester-auth.json');
-else var auth = require('../tokens/owo-auth.json');
+else var auth = require('/tokens/owo-auth.json');
 
 const Discord = require('discord.js');
 const Manager = new Discord.ShardingManager('./owo.js',{
